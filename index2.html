@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="horizontal" class="d-flex">
+      <nav class="p-3">
+        <!-- logo-->
+        <img id="logo" src="Icons/Spotify logo.png">
+
+        <!-- Nav Sec 1-->
+        <div id="nav_sec_1">
+           <div class="ns1-element" id="home">
+               <img src="Icons/Home.png">
+               <span class="ms-3">Home</span>
+           </div>
+
+           <div class="ns1-element" id="search">
+               <img src="Icons/Search.png">
+               <span class="ms-3">Search</span>
+           </div>
+
+           <div class="ns1-element" id="library">
+               <img src="Icons/Your library.png">
+               <span class="ms-3">Your Library</span>
+           </div>
+        </div>
+
+        <div id="nav_sec_2" class="pb-2">
+            <p>PLAYLISTS</p>
+
+            <div class="ns2-element" id="create_playlist">
+                <img src="Icons/plus.png">
+                <span class="ms-3">Create Playlist</span>
+            </div>
+
+            <div class="ns2-element" id="songs_liked">
+                <img src="Icons/purpleheart.png">
+                <span class="ms-3">Liked Songs</span>
+            </div>
+        </div>
+        
+        <img id="album_art" src="images/album art.png">
+       </nav>
+
+       <div id="main">
+
+          <div id="hero_section" class="d-flex align-items-end">
+             <div id="thumbnail" class="px-4 py-3">
+                <img src="images/pop-rn3.png">  
+             </div>
+
+             <div id="details" class="text-white">
+                <p>PLAYLIST</p>  
+                <h1 id="title" class="fw-800">Pop Right Now</h1>
+                <p class="text-white-lower"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, blanditiis!<br>
+                <span class="text-white fw-700">Spotify</span> • 860,305 likes • 100 songs, 5 hr 5 min</p>            
+            </div>
+          </div>
+
+          
+            <div id="play_like_options" class="px-4 py-3">
+              <img src="Icons/play.png">
+              <img src="Icons/heart.svg">
+              <img src="Icons/threedot.svg">
+            </div>  
+
+            <div class="song text-white px-4 d-flex align-items-center">
+
+                <div class="song_item d-flex align-items-center">
+                  <img class="polygon" src="Icons/Polygon 2.png">
+                  <span class="p-2"><img class="song_img" src="images/Rectangle 9.png"></span>
+                  <div class="song_info">
+                      <p>We're Good<br>
+                      Dua Lipa</p>
+                  </div>
+                 </div>
+
+                
+                <p class="song_album">Future Nostalgia(The Moonlight Edition)</p>
+
+                <p class="song_date"><img src="Icons/일 전.svg"></p>
+            
+            </div>
+
+            <div class="song text-white px-4 d-flex align-items-center">
+
+                <div class="song_item d-flex align-items-center">
+                  <img class="polygon" src="Icons/2.svg">
+                  <span class="p-2"><img class="song_img" src="Icons/list img.png"></span>
+                  <div class="song_info">
+                      <p>We're Good<br>
+                      Dua Lipa</p>
+                  </div>
+                 </div>
+
+                
+                <p class="song_album">Future Nostalgia(The Moonlight Edition)</p>
+
+                <p class="song_date"><img src="Icons/일 전.svg"></p>
+            
+            </div>
+       </div>
+   </div> 
+
+   <div id="vertical">
+    
+    <div id="player_area" class="d-flex justify-content-between align-items-center">
+
+       <div class="d-flex align-items-center">
+           <img id="song_playing_img" src="images/Rectangle 9.png" class="px-3 py-2">  
+           <div id="song_playing_details">
+             <p id="song_name" class="text-white">Hold On</p>
+             <p id="singer">Justin Bieber</p>
+           </div>
+           <img id="like_song_heart" src="Icons/heart.png"> 
+           <img id="pip" src="Icons/pip.png"> 
+       </div>
+
+       
+       
+       <div id="player">
+          <div id="player_icons">
+             <img class="ms-3" src="Icons/shuffle.svg">
+             <img class="ms-3 ps-1" src="Icons/previous.svg">
+             <img class="p-2" id="play_button" src="Icons/gridicons_play.png">
+             <img class="ms-3"src="Icons/next.svg">
+             <img class="ms-3"src="Icons/loop.svg">
+          </div>
+
+          <div>
+             <span id="elapsed">0:00</span>
+             <img id="music_bar" src="Icons/big-music-bar.png">
+             <span id="duration">2:50</span>
+          </div>
+       </div>
+
+       <div class="px-3">
+           <img class="ms-2" src="Icons/list.png">
+           <img class="ms-2" src="Icons/idk.png">
+           <img class="ms-2" src="Icons/speaker-white.png">
+           <img class="ms-2" src="Icons/volume-bar.png">
+       </div>
+     </div>
+   </div>    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>   
+</body>
+</html>     

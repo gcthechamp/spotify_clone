@@ -1,0 +1,153 @@
+nav
+{
+    background-color: black;
+    color: white;
+}
+
+#logo
+{
+    width: 115px;
+    margin-bottom: 15px;
+}
+
+.ns1-element,.ns2-element
+{
+    margin-top: 18px;
+}
+
+
+.ns1-element>img, .ns2-element>img {
+    width: 22px;
+}
+
+#nav_sec_1, #nav_sec_2
+{
+    margin-bottom: 26px;
+}
+
+nav
+{
+    width: 20vw;
+}
+
+#player_area
+{
+    background-color: #181818;
+}
+
+.ns3-para {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#singer
+{
+    color: #A8A8A8;
+}
+
+#song_name
+{
+    margin-bottom: 0;
+}
+
+#like_song_heart
+{
+    width: 10px;
+}
+
+#elapsed,#duration
+{
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+}
+
+#play_button
+{
+    margin-left: 26px;
+}
+
+#player
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#like_song_heart
+{
+    width: 20px;
+    position: relative;
+    top: 12px;
+    left: 5px;
+}
+
+#main_section
+{
+    background: linear-gradient(#1a1a1a 98%, white);
+    color: white;
+}
+
+#arrows>img
+{
+    width: 34px;
+}
+
+#user
+{
+    width: 129px;
+}
+
+#main_section
+{
+    width: 80vw;
+}
+
+.p-28
+{
+    padding-left: 28px;
+}
+
+.playlist_card
+{
+    width: 314px;
+    background-color: #303030;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+#playlists
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.show_card
+{
+    background-color: #181818;
+    width: 239px; 
+    height: 298px;
+}
+
+.card_image
+{
+    width: 71px;
+}
+
+.show_author
+{
+    margin-top: -12px;
+    color: #8C8C8C;
+    
+}
+
+#vertical
+{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+
+

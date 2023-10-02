@@ -1,0 +1,190 @@
+nav
+{
+    background-color: black;
+    color:#858585;
+    position: relative;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#logo
+{
+    width: 115px;
+    margin-bottom: 10px;
+}
+
+.ns1-element,.ns2-element
+{
+    margin-top: 12px;
+}
+
+
+.ns1-element>img, .ns2-element>img {
+    width: 20px;
+}
+
+#nav_sec_1, #nav_sec_2
+{
+    margin-bottom: 26px;
+}
+
+nav
+{
+    width: 15vw;
+    height: 661px;
+   
+}
+
+#nav_sec_2>p, #ns2-element>span
+{
+ font-weight: 700;
+}
+
+#nav_sec_2
+{
+   border-bottom-width: 2px;
+   border-bottom-color: #282828;
+   border-bottom-style: solid;
+}
+
+#album_art
+{
+   position: absolute;
+   width: 15vw;
+   left: 0;
+   bottom : 5px;
+}
+
+#player_area
+{
+    background-color: #181818;
+    font-size: 13px;
+}
+
+#singer
+{
+    color: #A8A8A8;
+}
+
+#song_name
+{
+    margin-bottom: 0;
+}
+
+#like_song_heart
+{
+    width: 10px;
+}
+
+#elapsed,#duration
+{
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+}
+
+#play_button
+{
+    margin-left: 26px;
+}
+
+#player
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#like_song_heart, #pip {
+    width: 20px;
+    position: relative;
+    top: -10px;
+    left: 13px;
+    margin-right: 5px;
+}
+
+.fw-700
+{
+    font-weight: 700;
+}
+
+.fw-800
+{
+    font-weight: 800;
+}
+
+.fw-900
+{
+    font-weight: 900;
+}
+
+.text-white-lower
+{
+    color: #c4c8c7;
+}
+
+#main
+{
+    background: linear-gradient(#89a69f,#79928c,#6a807b,#4e5f5b,#3d4a47 40%, #3d4a47 55%,#28302f 55%,#000000 70%);
+}
+
+#hero_section
+{
+    padding-top: 100px;
+    width: 85vw;
+    
+}   
+
+#title
+{
+    font-size: 95px;
+}
+
+#thumbnail>img
+{
+    box-shadow: 0px 0px 20px 10px #4b5b57;
+}
+
+
+
+#play_like_options>:nth-child(2)
+{
+ width: 46px;
+ height: 46px;
+ margin-left: 1vw;
+}
+
+#play_like_options>:nth-child(3)
+{
+    margin-left: 1vw;
+}
+
+.polygon
+{
+    width: 9px;
+    height: 11px;
+}
+
+.song_item
+{
+    margin-right: 20vw;
+}
+
+.song_album
+{
+    margin-right: 16vw;
+}
+
+.song_img
+{
+    width: 63px;
+}
+
+#vertical
+{
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+} 
+
+
