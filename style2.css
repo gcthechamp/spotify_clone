@@ -31,8 +31,8 @@ nav
 nav
 {
     width: 15vw;
-    height: 661px;
-   
+    /* height: 661px; */
+    
 }
 
 #nav_sec_2>p, #ns2-element>span
@@ -49,10 +49,9 @@ nav
 
 #album_art
 {
-   position: absolute;
+   margin-top: 124px;
    width: 15vw;
-   left: 0;
-   bottom : 5px;
+   
 }
 
 #player_area
@@ -123,17 +122,18 @@ nav
     color: #c4c8c7;
 }
 
-#main
-{
-    background: linear-gradient(#89a69f,#79928c,#6a807b,#4e5f5b,#3d4a47 40%, #3d4a47 55%,#28302f 55%,#000000 70%);
-}
 
 #hero_section
 {
     padding-top: 100px;
     width: 85vw;
-    
+    background: linear-gradient(#89a69f,#79928c,#6a807b,#4e5f5b,#3d4a47,#3d4a47);
 }   
+
+#rest_section
+{
+    background: linear-gradient(#2a3431,#27302e,#1f2625,black 40%);
+}
 
 #title
 {
@@ -182,9 +182,24 @@ nav
 
 #vertical
 {
-    position: fixed;
+    position: sticky;
     bottom: 0px;
     width: 100vw;
 } 
+
+#more_details
+{
+    margin-left: 8vw;
+}
+
+.more_details_2
+{
+    margin-left: 10vw;
+}
+
+#md_heart
+{
+    width: 30px;
+}
 
 

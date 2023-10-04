@@ -103,6 +103,13 @@ nav
     width: 80vw;
 }
 
+#logo-2
+{
+    width: 64px;
+    margin-left: -20px;
+    display: none;
+}
+
 .p-28
 {
     padding-left: 28px;
@@ -144,10 +151,121 @@ nav
 
 #vertical
 {
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100vw;
 }
+
+@media (max-width: 1220px)
+{
+    /* .icons
+    {
+
+    } */
+
+    #music_bar
+    {
+        width: 434px;
+    }
+}
+
+@media (max-width: 1020px)
+{
+
+    #music_bar
+    {
+        width: 300px;
+    }
+}
+
+@media (max-width: 888px)
+{
+
+    #music_bar
+    {
+        width: 250px;
+    }
+}
+
+ @media (max-width: 840px)
+{
+
+   #player_area
+    {
+        flex-direction: column;
+    }
+
+}  
+
+@media (max-width: 790px)
+{
+    
+
+    #nav_sec_3
+    {
+        display: none;
+    }
+
+    .ns1-element>span,.ns2-element>span,#nav_sec_4>span
+    {
+        display: none;
+    }
+
+    #logo
+    {
+        display: none;
+    }
+
+    #logo-2
+    {
+        display: block; 
+    }
+
+    nav
+    {
+        width: 10vw;    
+    }
+
+    #main_section
+    {
+        width: 90vw;
+    }
+}
+
+@media (max-width: 540px)
+{
+    #playlists
+    {
+        flex-direction: column;
+    }
+    .playlist_card
+    {
+        width: 300px;
+    }
+    #logo-2
+    {
+        margin-left: -30px;
+    }
+    #nav_sec_1,#nav_sec_2,#nav_sec_4
+    {
+      margin-left: -15px;  
+    }
+}
+
+@media (max-width: 395px)
+{
+    #playlists
+    {
+        flex-direction: column;
+    }
+    .playlist_card
+    {
+        width: 250px;
+    }
+}
+
+
+
 
 
 
