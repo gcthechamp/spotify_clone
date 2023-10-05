@@ -4,6 +4,13 @@ nav
     color: white;
 }
 
+#nav_sec_2>a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
 #logo
 {
     width: 115px;
